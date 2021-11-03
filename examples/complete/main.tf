@@ -5,7 +5,7 @@ provider "aws" {
 locals {
   name            = "complete-${random_string.suffix.result}"
   cluster_version = "1.20"
-  region          = "eu-west-1"
+  region          = "us-west-2"
 }
 
 ################################################################################
